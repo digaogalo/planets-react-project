@@ -1,4 +1,7 @@
+body{
+    margin-left: 20px;
+}
+
 .gray-img {
     width: 300px;
-    filter: grayscale(100);
 }

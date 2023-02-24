@@ -1,16 +1,30 @@
 import React, { Fragment } from 'react'
 import Planet from './planet'
 
+function clickOnPlanet(name) {
+    return (
+        console.log(`Você clicou no planteta ${name}`)
+    )
+}
+
 function Planets() {
     return (
         <Fragment>
             <h3>Planets List</h3>
             <hr/>
             <Planet name='Mercúrio'
-            description='Mercurio es el planeta del sistema solar, más cercano al Sol y es el de menor tamaño. No es mucho lo que se sabe de él, además de que es un planeta terrestre (al contrario de los planetas gaseosos), es decir que tiene una superficie sólida.'
-            img_url='https://tvazteca.brightspotcdn.com/dims4/default/b6788aa/2147483647/strip/true/crop/1280x800+0+0/resize/1500x938!/format/jpg/quality/80/?url=http%3A%2F%2Ftv-azteca-brightspot.s3.amazonaws.com%2F77%2F94%2F781491c94c0b9fdf332e20e7529c%2Fmercurio-visible-como.jpg'
+            description='Mercúrio é o menor[nota 1][nota 2] e mais interno planeta do Sistema Solar, orbitando o Sol a cada 87,969 dias terrestres. '
+            img_url='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg/280px-Mercury_in_color_-_Prockter07-edit1.jpg'
+            link="https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)"
+            clickOnPlanet={clickOnPlanet}
             />
-           
+            <Planet name='Marte'
+            description="Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema Solar. Batizado em homenagem a divindade romana da guerra, muitas vezes é descrito como o Planeta Vermelho"
+            img_url='https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/280px-OSIRIS_Mars_true_color.jpg'
+            link="https://pt.wikipedia.org/wiki/Marte_(planeta)"
+            clickOnPlanet={clickOnPlanet}
+            />   
+                
         </Fragment>
         
     )
