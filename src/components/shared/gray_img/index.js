@@ -3,7 +3,7 @@ import './style.css'
 function GrayImg(props) {
     return (
        
-        <img class="gray-img" src={props.img_url} alt="planets"></img>
+        <img className={props.gray ? 'gray-img' : 'color-img'} src={props.img_url} alt="planets"></img>
     )
 }
 
