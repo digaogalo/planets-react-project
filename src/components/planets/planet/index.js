@@ -1,24 +1,32 @@
+
 import React from 'react'
 import GrayImg from '../../shared/gray_img' 
 import DescriptionWithLink from '../../shared/description_with_link/index'
+import Planets from "./planets"
 
-function Planet(props) {
-    let title
-    if(props.title_with_underline) 
-    title = <h4><u>{props.name}</u></h4>
-    else
-    title = <h4>{props.name}</h4>
+class Planet extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            planet: []
+        }
+    }
 
-    return (
+    render() {
+        return (
 
         <div onClick={() => props.clickOnPlanet(props.name)}>
             {title}
             <DescriptionWithLink description={props.description} link={props.link}/>
             <GrayImg img_url={props.img_url} gray={props.gray}/>
+            <Planets planets={this.state.planet}/>
             <hr/>
         </div>           
     )
+  }
 }
 
+
 export default Planet
+
 
