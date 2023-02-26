@@ -2,8 +2,6 @@ import React from 'react'
 import GrayImg from '../../shared/gray_img' 
 import DescriptionWithLink from '../../shared/description_with_link/index'
 
-
-
 function Planet(props) {
     let title
     if(props.title_with_underline) 
@@ -12,10 +10,12 @@ function Planet(props) {
     title = <h4>{props.name}</h4>
 
     return (
+
         <div onClick={() => props.clickOnPlanet(props.name)}>
             {title}
             <DescriptionWithLink description={props.description} link={props.link}/>
             <GrayImg img_url={props.img_url} gray={props.gray}/>
+            <hr/>
         </div>           
     )
 }
