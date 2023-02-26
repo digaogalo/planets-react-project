@@ -1,27 +1,29 @@
 import React, { Fragment } from 'react'
 import Planet from './planet'
 
+async function getPlanets() {
+    let response = await fetch('http://localhost:3000/api/planets.json')
+    let data = await response.json()
+    return data
+}
+
 class Planets extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            planets: [
-                {
-                    name:'Mercúrio',
-                    description:"Plutão é um planeta anão do Sistema Solar e o nono maior e décimo mais massivo objeto observado diretamente orbitando o Sol",
-                    img_url:'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg/280px-Mercury_in_color_-_Prockter07-edit1.jpg',
-                    link:"https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)",
-                },
-                {
-                    name:'Marte',
-                    description:"Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema Solar. Batizado em homenagem a divindade romana da guerra, muitas vezes é descrito como o Planeta Vermelho",
-                    img_url:'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/280px-OSIRIS_Mars_true_color.jpg',
-                    link:"https://pt.wikipedia.org/wiki/Marte_(planeta)",
-                }
-                
-            ]
+            planets: []
         }
     }
+
+        componentDidMount(){
+            getPlanets().then(data => {
+                this.setState(state => ({
+                    planets: data['planets']
+                }))
+            })
+         } 
+        
+
 
       removeLast =  () => {
         let new_planets = [...this.state.planets]

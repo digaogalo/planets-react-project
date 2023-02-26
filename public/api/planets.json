@@ -1,0 +1,62 @@
+{
+    "planets": [
+      {
+        "id": "mercury",
+        "name": "Mercury",
+        "description": "Mercury is the smallest planet in our solar system and is also the closest planet to the sun. It is a rocky planet with a heavily cratered surface and no atmosphere.",
+        "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg/280px-Mercury_in_color_-_Prockter07-edit1.jpg",
+        "link": "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)"
+      },
+      {
+        "id": "venus",
+        "name": "Venus",
+        "description": "Venus is the second planet from the sun and is known for its thick, toxic atmosphere that traps heat and causes a greenhouse effect. It is the hottest planet in our solar system.",
+        "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/PIA23791-Venus-RealAndEnhancedContrastViews-20200608_%28cropped2%29.jpg/420px-PIA23791-Venus-RealAndEnhancedContrastViews-20200608_%28cropped2%29.jpg",
+        "link": "https://pt.wikipedia.org/wiki/Venus_(planeta)"
+      },
+      {
+        "id": "earth",
+        "name": "Earth",
+        "description": "Earth is the third planet from the sun and is the only planet known to support life. It has a diverse range of environments, including oceans, forests, deserts, and polar ice caps.",
+        "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/450px-The_Blue_Marble_%28remastered%29.jpg",
+        "link": "https://pt.wikipedia.org/wiki/Terra_(planeta)"
+      },
+      {
+        "id": "mars",
+        "name": "Mars",
+        "description": "Mars is the fourth planet from the sun and is often referred to as the 'Red Planet' due to its reddish appearance in the night sky. It has a thin atmosphere and a rocky, desert-like surface.",
+        "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/420px-OSIRIS_Mars_true_color.jpg",
+        "link": "https://pt.wikipedia.org/wiki/Mars_(planeta)"
+      },
+      {
+        "id": "jupiter",
+        "name": "Jupiter",
+        "description": "Jupiter is the largest planet in our solar system and is known for its Great Red Spot, a massive storm larger than the size of Earth. It is a gas giant with no solid surface.",
+        "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/450px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+        "link": "https://pt.wikipedia.org/wiki/Jupiter_(planeta)"
+      },
+      {
+        "id": "saturn",
+        "name": "Saturn",
+        "description": "Saturn is the sixth planet from the sun and is known for its beautiful rings made up of ice particles and rock. It is also a gas giant with no solid surface.",
+        "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/450px-Saturn_during_Equinox.jpg",
+        "link": "https://pt.wikipedia.org/wiki/Saturn_(planeta)"
+        
+      },
+      {
+        "id": "uranus",
+        "name": "Uranus",
+        "description": "Uranus is the seventh planet from the sun and is tilted on its side, giving it a unique appearance. It is a gas giant with a rocky core and a thick atmosphere of hydrogen, helium, and methane.",
+        "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/420px-Uranus2.jpg",
+        "link": "https://pt.wikipedia.org/wiki/Uranus_(planeta)"
+      },
+      {
+        "id": "neptune",
+        "name": "Neptune",
+        "description": "Neptune is the eighth planet from the sun and is known for its blue color, which comes from the presence of methane in its atmosphere. It is also a gas giant with a rocky core.",  
+        "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/420px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg",
+        "link": "https://pt.wikipedia.org/wiki/Neptune_(planeta)"
+      }
+    ]
+  }
+  
