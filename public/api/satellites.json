@@ -1,29 +1,10 @@
 {
-    "satelites": [
-      {
-        "nome": "Caloris",
-        "descricao": "Caloris é uma grande bacia de impacto em Mercúrio."
-      },
-      {
-        "nome": "Caronte",
-        "descricao": "Caronte é uma grande lua que orbita Mercúrio."
-      },
-      {
-        "nome": "Nenhum",
-        "descricao": "Vênus não possui satélites naturais conhecidos."
-      },
-      {
-        "nome": "Lua",
-        "descricao": "A Lua é o único satélite natural da Terra."
-      },
-      {
-        "nome": "Fobos",
-        "descricao": "Fobos é uma das duas luas de Marte."
-      },
-      {
-        "nome": "Deimos",
-        "descricao": "Deimos é uma das duas luas de Marte."
-      }
+    "satellites": [
+        {"name": "Phobos"},
+        {"name": "Deimos"},
+        {"name": "Umbriel"},
+        {"name": "Titania"},
+        {"name": "Oberon"}
     ]
-  }
+}
   
