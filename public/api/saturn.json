@@ -1,0 +1,8 @@
+{
+    "satellites": [
+        {"name": "Mimas"},
+        {"name": "Enceladus"},
+        {"name": "Tethys"},
+        {"name": "Dione"}
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "satellites": [
+        {"name": "Ariel"},
+        {"name": "Umbriel"},
+        {"name": "Titania"},
+        {"name": "Oberon"},
+        {"name": "Miranda"}
+    ]
+}
+  

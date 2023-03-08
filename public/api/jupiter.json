@@ -1,0 +1,9 @@
+{
+    "satellites": [
+        {"name": "Io"},
+        {"name": "Europa"},
+        {"name": "Ganymede"},
+        {"name": "Callisto"},
+        {"name": "Callisto"}
+    ]
+}
